@@ -24,7 +24,12 @@ img{
 }
 
 header {
-   background-color:  var(--teste);
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   z-index: 100;
+   background-color: var(--cor-s3);
 }
 
 .call-to-action {
@@ -66,11 +71,7 @@ h1 {
 }
 
 .header_container img {
-    width: 314px;
-}
-
-header {
-    background-color: var(--cor-s4);
+    width: 250px;
 }
 
 .header_container nav ul {
@@ -120,6 +121,7 @@ header {
     grid-template-columns: 1fr 1fr;
     padding: 0px 32px 60px 32px;
     align-items: center;
+    padding-top: 300px ;
     /* max-width: 1600px; */
 }
 
@@ -142,7 +144,7 @@ header {
 }
 
 .take_care_container {
-    padding: 60px 32px 60px 32px;
+    padding: 300px 32px 60px 32px;
 }
 
 .take_care_container h1 {
@@ -276,7 +278,7 @@ header {
 }
 
 .contact_container {
-    padding: 60px 32px;
+    padding: 300px 32px 60px 32px;
 }
 
 .contact_container h1 {
@@ -333,6 +335,29 @@ header {
     align-items: center;
     gap: 8px;
     margin-top: 32px;
+}
+
+footer {
+    background-color: var(--cor-s3);
+}
+
+footer p {
+    font-family: 'roboto', sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.js .js-scroll {
+    opacity: 0;
+    transition: .3s;
+    transform: translate3d(-30px, 0, 0);
+}
+
+.js .js-scroll.ativo{
+    opacity: 1;
+    transition: .3s;
+    transform: translate3d(0, 0, 0);
 }
 
 @media(max-width: 1400px){
