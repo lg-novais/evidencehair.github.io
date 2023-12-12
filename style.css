@@ -36,10 +36,12 @@ header {
     background: linear-gradient(90deg, #BFA560, #957A34);
     border-radius: 4px;
     color: var(--cor-p2);
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2);
 }
 
 .call-to-action:hover{
-    background: var(--cor-p1);
+    background: linear-gradient(90deg, var(--cor-p1), #bd9835);
+    color: var(--cor-p2) ;
 
 }
 
@@ -67,8 +69,13 @@ h1 {
     width: 314px;
 }
 
+header {
+    background-color: var(--cor-s4);
+}
+
 .header_container nav ul {
     display: flex;
+   
 }
 
 .header_container nav ul li a:nth-child(1), 
@@ -230,7 +237,7 @@ h1 {
 }
 
 .about-us_background {
-    background: var(--cor-p1);
+    background: linear-gradient(90deg,  var(--cor-p1), var(--cor-p2));
 }
 
 .about-us_container {
@@ -265,7 +272,7 @@ h1 {
 }
 
 .contact_background {
-    background: var(--cor-s3);
+    background: linea(--cor-s3);
 }
 
 .contact_container {
