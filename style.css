@@ -63,30 +63,30 @@ h1 {
     margin-bottom: 8px;
 }
 
-.header_container {
+.js .header_container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 32px;
 }
 
-.header_container img {
+.js .header_container img {
     width: 250px;
 }
 
-.header_container nav ul {
+.js .header_container nav ul {
     display: flex;
    
 }
 
-.header_container nav ul li a:nth-child(1), 
-.header_container nav ul li a:nth-child(2), 
-.header_container nav ul li a:nth-child(3) {
+.js .header_container nav ul li a:nth-child(1), 
+.js .header_container nav ul li a:nth-child(2), 
+.js .header_container nav ul li a:nth-child(3) {
     margin-right: 32px;
 }
 
 
-.header_container nav ul li a {
+.js .header_container nav ul li a {
     color: var(--cor-s1);
     font-family: 'poppins', sans-serif;
     font-size: 1.5rem;
@@ -96,7 +96,7 @@ h1 {
 }
 
 
-.header_container nav ul li a::after {
+.js .header_container nav ul li a::after {
     content: "";
     display: block;
     height: 2px;
@@ -106,7 +106,7 @@ h1 {
     transition: .3s;
 }
 
-.header_container nav ul li a:hover::after {
+.js .header_container nav ul li a:hover::after {
     content: "";
     display: block;
     height: 2px;
@@ -116,7 +116,7 @@ h1 {
 
 }
 
-.home_container {
+.js .home_container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 0px 32px 60px 32px;
@@ -125,7 +125,7 @@ h1 {
     /* max-width: 1600px; */
 }
 
-.home_container p {
+.js .home_container p {
     font-family: 'roboto', sans-serif;
     font-size: 1.25rem;
     line-height: 1.5;
@@ -133,21 +133,21 @@ h1 {
     margin-bottom: 32px ;
 }
 
-.home_container img {
+.js .home_container img {
     justify-self: end;
     height: 1000px;
     border-radius: 4px;
 }
 
-.take_care_background {
+.js .take_care_background {
     background-color: var(--cor-s1);
 }
 
-.take_care_container {
+.js .take_care_container {
     padding: 300px 32px 60px 32px;
 }
 
-.take_care_container h1 {
+.js .take_care_container h1 {
     text-transform: uppercase;
     font-family: 'poppins', sans-serif ;
     color: var(--cor-p1);
@@ -157,19 +157,19 @@ h1 {
     margin-bottom: 8px;
 }
 
-.take_care_container p{
+.js .take_care_container p{
     color: var(--cor-s2);
     font-family: 'roboto', sans-serif;
     font-size: 1.5rem;
 }
 
-.services ul {
+.js .services ul {
     display: flex;
     gap: 32px;
     justify-content: center;
 }
 
-.take_care_container img {
+.js .take_care_container img {
     border-radius: 4px;
     margin-top: 120px;
     width: 500px;
@@ -178,46 +178,46 @@ h1 {
 }
 
 
-.services ul h2 {
+.js .services ul h2 {
     font-family: 'poppins', sans-serif;
     font-size: 1.5rem;
     color: rgba(133, 107, 41, 0.3);
     transition: .3s;
 }
 
-.services ul li:hover h2 {
+.js .services ul li:hover h2 {
     color: var(--cor-p1)
 }
 
-.instagram_background {
+.js .instagram_background {
     display: none;
 }
 
-.collaborators {
+.js .collaborators {
     display: none;
 }
 
-.collaborators_container ul {
+.js .collaborators_container ul {
     display: flex;
 }
 
-.collaborators_container ul li img{
+.js .collaborators_container ul li img{
     opacity: .3;
     transition: .3s;
 }
 
-.collaborators_container ul li:hover img{
+.js .collaborators_container ul li:hover img{
     opacity: 1;
 }
 
-.collaborators_container ul li div h3 {
+.js .collaborators_container ul li div h3 {
     font-family: 'poppins', sans-serif;
     font-size: 1.5rem;
     text-transform: uppercase;
     color: var(--cor-s4);
 }
 
-.collaborators_container ul li:hover div h3 {
+.js .collaborators_container ul li:hover div h3 {
     font-family: 'poppins', sans-serif;
     font-size: 2.5rem;
     text-transform: uppercase;
@@ -225,24 +225,24 @@ h1 {
     color: var(--cor-s4);
 }
 
-.collaborators_container ul li div span {
+.js .collaborators_container ul li div span {
     font-family: 'roboto', sans-serif;
     font-size: 1.25rem;
     color: var(--cor-s4);
     opacity: .5;
 }
 
-.collaborators_container ul li{
+.js .collaborators_container ul li{
     display: grid;
     justify-items: center;
     align-items: center;
 }
 
-.about-us_background {
+.js .about-us_background {
     background: linear-gradient(90deg,  var(--cor-p1), var(--cor-p2));
 }
 
-.about-us_container {
+.js .about-us_container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
@@ -250,7 +250,7 @@ h1 {
     align-items: center;
 }
 
-.about-us_text h1 {
+.js .about-us_text h1 {
     font-family: 'poppins', sans-serif;
     font-size: 4rem;
     text-transform: uppercase;
@@ -259,7 +259,7 @@ h1 {
     margin-bottom: 8px;
 }
 
-.about-us_text p {
+.js .about-us_text p {
     font-family: 'roboto', sans-serif;
     font-size: 1.25rem;
     max-width: 90ch;
@@ -268,41 +268,41 @@ h1 {
     margin-bottom: 16px;
 }
 
-.about-us_container img {
+.js .about-us_container img {
     border-radius: 4px;
     justify-self: end;
 }
 
-.contact_background {
+.js .contact_background {
     background: linea(--cor-s3);
 }
 
-.contact_container {
+.js .contact_container {
     padding: 300px 32px 60px 32px;
 }
 
-.contact_container h1 {
+.js .contact_container h1 {
     color: var(--cor-s1);
 }
 
-.contact_container img {
+.js .contact_container img {
     border-radius: 4px 4px 0 0;
 }
 
-.maps {
+.js .maps {
     display: grid;
     justify-content: center;
     margin-top: 120px;
 }
 
-.contact{
+.js .contact{
     padding: 32px;
     background: var(--cor-s4);
     border-radius: 0 0 4px 4px;
    box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.1);
 }
 
-.contact h2 {
+.js .contact h2 {
     font-family: 'poppins', sans-serif;
     font-size: 2.175rem;
 }
@@ -313,13 +313,13 @@ h1 {
     line-height: 1.5;
 }
 
-.contact li{
+.js .contact li{
     color: var(--cor-s2-2);
     padding-left: 16px ;
     position: relative;
 }
 
-.contact li::after{
+.js .contact li::after{
     content: "";
     display: block;
     width: 2px;
@@ -330,7 +330,7 @@ h1 {
     position: absolute;
 }
 
-.contact .hour{
+.js .contact .hour{
     display: flex;
     align-items: center;
     gap: 8px;
@@ -348,11 +348,24 @@ footer p {
     padding: 60px 0;
 }
 
-.wpp{
+.js .wpp{
     position: fixed;
     right: 32px;
     bottom: 32px;
+    animation: animaWpp 2s infinite;
 }
+
+
+
+@keyframes animaWpp {
+    from {
+        bottom: 0;
+    }
+    to {
+        bottom: 50px;
+    }
+}
+
 
 
 .js .js-scroll {
