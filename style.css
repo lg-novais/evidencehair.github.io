@@ -38,7 +38,7 @@ header {
     font-size: 1.5rem;
     text-transform: uppercase;
     padding: 20px ;
-    background: linear-gradient(90deg, #BFA560, #957A34);
+    background: linear-gradient(90deg, #bd9835, var(--cor-p1));
     border-radius: 4px;
     color: var(--cor-p2);
     box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2);
@@ -353,6 +353,7 @@ footer p {
     right: 32px;
     bottom: 32px;
 }
+
 
 .js .js-scroll {
     opacity: 0;
