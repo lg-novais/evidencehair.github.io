@@ -1,6 +1,7 @@
-import initAnimaScroll from "./modules/animaScroll.js"; 
-import scrollSuave from "./modules/scrollSuave.js"; 
+import initAnimaScroll from './module/animaScroll.js';
+import initScrollSuave from './module/scrollSuave.js';
 
-initAnimaScroll()
-scrollSuave()
+
+initAnimaScroll();
+initScrollSuave();
 
