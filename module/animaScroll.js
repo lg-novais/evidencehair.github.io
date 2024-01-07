@@ -10,6 +10,7 @@ export default function initAnimaScroll(){
                 };
             });
         };
+        sections[0].classList.add('ativo')
         window.addEventListener('scroll', animaScroll);
     }
 }

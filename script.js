@@ -4,4 +4,3 @@ import initScrollSuave from './module/scrollSuave.js';
 
 initAnimaScroll();
 initScrollSuave();
-
